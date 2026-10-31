@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brandon Wijngaarde — Portfolio: design, web en muziek</title>
+  <meta name="description" content="Portfolio van Brandon Wijngaarde, student Creative Business aan Hogeschool Inholland. Graphic design, web design, web development en muziekproductie.">
+  <meta name="theme-color" content="#f1ebd9">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Brandon Wijngaarde">
+  <meta property="og:locale" content="nl_NL">
+  <meta property="og:title" content="Brandon Wijngaarde — Portfolio: design, web en muziek">
+  <meta property="og:description" content="Portfolio van Brandon Wijngaarde, student Creative Business aan Hogeschool Inholland. Graphic design, web design, web development en muziekproductie.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Jost:wght@300;400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Person", "name": "Brandon Wijngaarde", "jobTitle": "Student Creative Business", "description": "Designer, developer en muziekproducer", "email": "mailto:brandonwijngaarde9@gmail.com", "address": {"@type": "PostalAddress", "addressCountry": "NL"}, "affiliation": {"@type": "CollegeOrUniversity", "name": "Hogeschool Inholland"}, "knowsAbout": ["Graphic design", "Web design", "Web development", "Muziekproductie"]}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#top">Naar de inhoud</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Naar de homepagina">
+      <svg class="logo__icon logo__icon--talk" viewBox="0 0 32 32" aria-hidden="true"><path d="M2 3h28v19H15l-8 7v-7H2z"/></svg>
+      <svg class="logo__icon logo__icon--music" viewBox="0 0 32 32" aria-hidden="true"><circle cx="10" cy="24" r="6"/><rect x="13" y="3" width="4" height="21"/><path d="M17 3h11v8H17z"/></svg>
+      <svg class="logo__icon logo__icon--idea" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="12" r="10"/><rect x="11" y="23" width="10" height="3"/><rect x="12" y="28" width="8" height="3"/></svg>
+      <span class="logo__text">B.W.</span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Hoofdmenu">
+      <a href="over-mij.html"><span>01</span>Over mij</a>
+      <a href="skills.html"><span>02</span>Skills</a>
+      <a href="projecten.html"><span>03</span>Projecten</a>
+      <a href="contact.html"><span>04</span>Contact</a>
+    </nav>
+    <div class="status"><span class="status__dot"></span>Open voor projecten</div>
+    <button class="menu-toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top" tabindex="-1">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__bar">
+        <span>Portfolio</span>
+        <span>Editie 01</span>
+        <span>Vorm · Kleur · Klank</span>
+      </div>
+
+      <div class="hero__body">
+        <div class="hero__text">
+          <p class="eyebrow">Designer · Developer · Producer</p>
+          <h1 class="hero__title">
+            <span class="line">Brandon</span>
+            <span class="line">Wijngaarde</span>
+          </h1>
+          <p class="hero__lead">
+            Student Creative Business. Ik ontwerp en bouw websites, maak graphic
+            design en produceer muziek. Strak waar het moet, speels waar het kan.
+          </p>
+          <div class="hero__actions">
+            <a href="projecten.html" class="btn btn--black">Bekijk projecten</a>
+            <a href="contact.html" class="btn btn--outline">Neem contact op</a>
+          </div>
+        </div>
+
+        <div class="hero__art" aria-hidden="true">
+          <svg class="tiles" id="tiles" viewBox="0 0 6 8"></svg>
+          <p class="hero__hint">Klik een vlak</p>
+        </div>
+      </div>
+
+      <div class="hero__foot">
+        <span class="hero__foot-name">Mijn werk</span>
+        <span class="hero__foot-months">Graphic · Web · Code · Muziek</span>
+        <span class="hero__foot-year">2026</span>
+      </div>
+    </section>
+
+    <!-- ===== Marquee ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Graphic Design</span><i class="m-circle"></i>
+        <span>Web Design</span><i class="m-square"></i>
+        <span>Web Development</span><i class="m-triangle"></i>
+        <span>Muziekproductie</span><i class="m-circle"></i>
+        <span>Unity</span><i class="m-square"></i>
+        <span>Graphic Design</span><i class="m-circle"></i>
+        <span>Web Design</span><i class="m-square"></i>
+        <span>Web Development</span><i class="m-triangle"></i>
+        <span>Muziekproductie</span><i class="m-circle"></i>
+        <span>Unity</span><i class="m-square"></i>
+      </div>
+    </div>
+
+    <!-- ===== Uitgelicht werk ===== -->
+    <section class="section featured" aria-labelledby="featured-title">
+      <header class="section__head reveal">
+        <span class="section__shapes" aria-hidden="true"><i class="shape-circle"></i><i class="shape-square"></i><i class="shape-triangle"></i></span>
+        <h2 class="section__title" id="featured-title">Uitgelicht werk</h2>
+        <p class="section__note">Een greep uit mijn eindproducten: een interview, een infographic en een audio-zelfportret.</p>
+      </header>
+
+      <div class="featured__grid">
+        <article class="work reveal">
+          <div class="work__bar">
+            <h3>Het Bjorn Lagendijk Interview</h3>
+            <span>Video<br>2026</span>
+          </div>
+          <a class="work__art" href="project.html?id=mm-video" tabindex="-1" aria-hidden="true">
+            <img class="work__media" src="assets/projecten_stuff/interview_bjorn_poster.jpg" alt="" width="1280" height="720" loading="lazy">
+          </a>
+          <div class="work__info">
+            <p>Wat zit er in een naam? Een interview met oud-student Bjorn Lagendijk over zijn bedrijf.</p>
+            <a class="work__open" href="project.html?id=mm-video">Bekijk project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <div class="work__bar">
+            <h3>Mijn digitale dagboek</h3>
+            <span>Infographic<br>2026</span>
+          </div>
+          <a class="work__art" href="project.html?id=mm-poster" tabindex="-1" aria-hidden="true">
+            <img class="work__media work__media--poster" src="assets/projecten_stuff/infographic_762963.png" alt="" width="1273" height="1800" loading="lazy">
+          </a>
+          <div class="work__info">
+            <p>Zes uur per dag in mijn broekzak: een poster over mijn eigen mediagebruik.</p>
+            <a class="work__open" href="project.html?id=mm-poster">Bekijk project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="work reveal">
+          <div class="work__bar">
+            <h3>Audio-zelfportret</h3>
+            <span>Audio<br>2026</span>
+          </div>
+          <a class="work__art" href="project.html?id=mm-podcast" tabindex="-1" aria-hidden="true">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="300" fill="var(--teal)"/>
+              <g class="waves" fill="none" stroke-width="14">
+                <path d="M110 70 A110 110 0 0 0 110 230" stroke="var(--yellow)"/>
+                <path d="M290 70 A110 110 0 0 1 290 230" stroke="var(--yellow)"/>
+                <path d="M78 40 A150 150 0 0 0 78 260" stroke="var(--cream)"/>
+                <path d="M322 40 A150 150 0 0 1 322 260" stroke="var(--cream)"/>
+              </g>
+              <rect x="160" y="60" width="80" height="130" rx="40" fill="var(--black)"/>
+              <g fill="var(--cream)"><rect x="176" y="90" width="48" height="6"/><rect x="176" y="108" width="48" height="6"/><rect x="176" y="126" width="48" height="6"/></g>
+              <rect x="194" y="190" width="12" height="60" fill="var(--red)"/>
+              <rect x="150" y="250" width="100" height="14" fill="var(--red)"/>
+            </svg>
+          </a>
+          <div class="work__info">
+            <p>Wie ben ik als je me alleen kunt horen? Een zelfportret van 59 seconden in geluid.</p>
+            <a class="work__open" href="project.html?id=mm-podcast">Bekijk project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+
+      <p class="featured__more reveal">
+        <a href="projecten.html" class="btn btn--outline">Alle projecten <span aria-hidden="true">→</span></a>
+      </p>
+    </section>
+
+    <!-- ===== Even voorstellen ===== -->
+    <section class="section intro" aria-labelledby="intro-title">
+      <div class="intro__grid">
+        <div class="about__photos reveal">
+          <span class="about__photos-block" aria-hidden="true"></span>
+          <span class="about__photos-dot" aria-hidden="true"></span>
+          <figure class="polaroid">
+            <img src="assets/IMG-20260701-WA0000.jpg" alt="Brandon in een bootje op de grachten op een zonnige dag" width="1366" height="2048" loading="lazy">
+            <figcaption>Zomer &rsquo;26</figcaption>
+          </figure>
+        </div>
+
+        <div class="intro__text">
+          <p class="eyebrow reveal">Even voorstellen</p>
+          <h2 class="intro__title reveal" id="intro-title">
+            Ik maak dingen die je <mark>ziet</mark>, <em>gebruikt</em> en <span>hoort</span>.
+          </h2>
+          <p class="intro__lead reveal">
+            Ik ben Brandon, student Creative Business aan Hogeschool Inholland in Rotterdam.
+            Ik combineer design, code en muziek: van een poster in Illustrator tot een website
+            in HTML, CSS en JavaScript of een track in FL Studio.
+          </p>
+          <a href="over-mij.html" class="btn btn--black reveal">Meer over mij</a>
+        </div>
+      </div>
+
+      <dl class="stats">
+        <div class="stat stat--red reveal"><dt>Disciplines</dt><dd data-count="5">5</dd></div>
+        <div class="stat stat--yellow reveal"><dt>Programma&rsquo;s &amp; talen</dt><dd data-count="12">12</dd></div>
+        <div class="stat stat--blue reveal"><dt>Instrumenten</dt><dd data-count="3">3</dd></div>
+        <div class="stat stat--teal reveal"><dt>Projecten</dt><dd data-count="3">3</dd></div>
+      </dl>
+    </section>
+
+    <!-- ===== Werkwijze ===== -->
+    <section class="section process" aria-labelledby="process-title">
+      <header class="section__head reveal">
+        <span class="section__shapes" aria-hidden="true"><i class="shape-circle"></i><i class="shape-square"></i><i class="shape-triangle"></i></span>
+        <h2 class="section__title" id="process-title">Zo werk ik</h2>
+        <p class="section__note">Een poster, een website of een nummer: elk project doorloopt dezelfde vier stappen.</p>
+      </header>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__shape shape-circle" aria-hidden="true"></span>
+          <span class="step__num">01</span>
+          <h3>Onderzoeken</h3>
+          <p>Voor wie maak ik het en wat bestaat er al? Ik verzamel voorbeelden en zoek uit wat de doelgroep nodig heeft.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__shape shape-square" aria-hidden="true"></span>
+          <span class="step__num">02</span>
+          <h3>Bedenken</h3>
+          <p>Ik schets meerdere ideeën en kies het concept dat het sterkst is en het meest van mezelf.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__shape shape-triangle" aria-hidden="true"></span>
+          <span class="step__num">03</span>
+          <h3>Maken</h3>
+          <p>Ik werk het concept uit in Illustrator, in code of in FL Studio. Strak, met oog voor elk detail.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__shape shape-half" aria-hidden="true"></span>
+          <span class="step__num">04</span>
+          <h3>Verbeteren</h3>
+          <p>Ik vraag feedback, test het resultaat en schaaf bij tot alles klopt.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Wegwijzer ===== -->
+    <section class="section signpost">
+      <header class="section__head reveal">
+        <span class="section__num">→</span>
+        <h2 class="section__title">Ontdek mijn portfolio</h2>
+        <p class="section__note">Vier pagina's, vier vormen. Kies waar je wilt beginnen.</p>
+      </header>
+
+      <nav class="signpost__grid" aria-label="Pagina's">
+        <a class="signpost__item signpost__item--red reveal" href="over-mij.html">
+          <span class="signpost__num">01</span>
+          <span class="signpost__shape shape-circle" aria-hidden="true"></span>
+          <span class="signpost__title">Over mij</span>
+          <span class="signpost__text">Wie ik ben: muziek, gamen en creatief denken.</span>
+          <span class="signpost__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="signpost__item signpost__item--yellow reveal" href="skills.html">
+          <span class="signpost__num">02</span>
+          <span class="signpost__shape shape-square" aria-hidden="true"></span>
+          <span class="signpost__title">Skills</span>
+          <span class="signpost__text">Disciplines, software en vaardigheden.</span>
+          <span class="signpost__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="signpost__item signpost__item--blue reveal" href="projecten.html">
+          <span class="signpost__num">03</span>
+          <span class="signpost__shape shape-triangle" aria-hidden="true"></span>
+          <span class="signpost__title">Projecten</span>
+          <span class="signpost__text">Mijn eindproducten per module: poster, video en audio.</span>
+          <span class="signpost__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="signpost__item signpost__item--teal reveal" href="contact.html">
+          <span class="signpost__num">04</span>
+          <span class="signpost__shape shape-half" aria-hidden="true"></span>
+          <span class="signpost__title">Contact</span>
+          <span class="signpost__text">Mail me of stuur direct een bericht.</span>
+          <span class="signpost__arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </section>
+    <!-- ===== Call to action ===== -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="cta__shapes" aria-hidden="true">
+        <span class="cta__circle"></span>
+        <span class="cta__square"></span>
+      </div>
+      <div class="cta__inner reveal">
+        <p class="eyebrow">Samenwerken?</p>
+        <h2 class="cta__title" id="cta-title">Heb je een idee? <span>Laten we iets maken.</span></h2>
+        <a href="contact.html" class="btn cta__btn">Neem contact op <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="site-footer__stripe" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <div class="site-footer__shapes" aria-hidden="true">
+          <span class="shape-circle"></span><span class="shape-square"></span><span class="shape-triangle"></span>
+        </div>
+        <p>Vorm volgt functie.<br>Klank volgt gevoel.</p>
+      </div>
+
+      <nav class="site-footer__col" aria-label="Footer navigatie">
+        <h2>Menu</h2>
+        <a href="index.html">Home</a>
+        <a href="over-mij.html">Over mij</a>
+        <a href="skills.html">Skills</a>
+        <a href="projecten.html">Projecten</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="site-footer__col">
+        <h2>Contact</h2>
+        <a href="mailto:brandonwijngaarde9@gmail.com">brandonwijngaarde9@gmail.com</a>
+        <span>Nederland</span>
+      </div>
+
+      <div class="site-footer__col">
+        <h2>Volg</h2>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Instagram</a>
+        <a href="#">SoundCloud</a>
+      </div>
+
+      <a href="#top" class="to-top" aria-label="Terug naar boven">
+        <span aria-hidden="true">↑</span>
+      </a>
+    </div>
+
+    <div class="site-footer__big" aria-hidden="true">Wijngaarde</div>
+
+    <dl class="site-footer__facts" aria-label="Studentgegevens">
+      <div><dt>Naam</dt><dd>Brandon Wijngaarde</dd></div>
+      <div><dt>Opleiding</dt><dd>Creative Business</dd></div>
+      <div><dt>School</dt><dd>Hogeschool Inholland</dd></div>
+      <div><dt>Studentnummer</dt><dd>762963</dd></div>
+      <div><dt>Klas</dt><dd>ROCB26VT1C</dd></div>
+      <div><dt>Locatie</dt><dd>Rotterdam</dd></div>
+      <div><dt>Datum</dt><dd>2-11-2026</dd></div>
+      <div><dt>Module</dt><dd>NL Media Maker P1 2026-2027</dd></div>
+    </dl>
+
+    <div class="site-footer__meta">
+      <span>© <span id="year">2026</span> Brandon Wijngaarde</span>
+      <span>Graphic · Web · Code · Muziek</span>
+      <span>Gebouwd met HTML, CSS &amp; JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

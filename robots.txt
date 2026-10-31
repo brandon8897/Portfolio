@@ -1,0 +1,6 @@
+# Alle zoekmachines mogen de hele site bekijken
+User-agent: *
+Allow: /
+
+# Vervang JOUW-DOMEIN.nl door het echte adres van de site
+Sitemap: https://JOUW-DOMEIN.nl/sitemap.xml

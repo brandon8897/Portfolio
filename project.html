@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project — Brandon Wijngaarde</title>
+  <meta name="description" content="Een project van Brandon Wijngaarde: het doel, de aanpak, het onderzoek, het mediakanaal en de bronnen.">
+  <meta name="theme-color" content="#f1ebd9">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Brandon Wijngaarde">
+  <meta property="og:locale" content="nl_NL">
+  <meta property="og:title" content="Project — Brandon Wijngaarde">
+  <meta property="og:description" content="Een project van Brandon Wijngaarde: het doel, de aanpak, het onderzoek, het mediakanaal en de bronnen.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#top">Naar de inhoud</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Naar de homepagina">
+      <svg class="logo__icon logo__icon--talk" viewBox="0 0 32 32" aria-hidden="true"><path d="M2 3h28v19H15l-8 7v-7H2z"/></svg>
+      <svg class="logo__icon logo__icon--music" viewBox="0 0 32 32" aria-hidden="true"><circle cx="10" cy="24" r="6"/><rect x="13" y="3" width="4" height="21"/><path d="M17 3h11v8H17z"/></svg>
+      <svg class="logo__icon logo__icon--idea" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="12" r="10"/><rect x="11" y="23" width="10" height="3"/><rect x="12" y="28" width="8" height="3"/></svg>
+      <span class="logo__text">B.W.</span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Hoofdmenu">
+      <a href="over-mij.html"><span>01</span>Over mij</a>
+      <a href="skills.html"><span>02</span>Skills</a>
+      <a href="projecten.html" class="is-active" aria-current="page"><span>03</span>Projecten</a>
+      <a href="contact.html"><span>04</span>Contact</a>
+    </nav>
+    <div class="status"><span class="status__dot"></span>Open voor projecten</div>
+    <button class="menu-toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top" tabindex="-1">
+
+    <!-- ===== Project detail (filled from projects.js) ===== -->
+    <article class="section project-page" id="project">
+      <nav class="breadcrumbs" aria-label="Kruimelpad">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="index.html"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="projecten.html"><span itemprop="name">Projecten</span></a><meta itemprop="position" content="2"></li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name" aria-current="page" id="pd-crumb">Project</span><meta itemprop="position" content="3"></li>
+        </ol>
+      </nav>
+
+      <div class="project-detail" id="project-detail">
+        <p class="project-detail__meta" id="pd-meta"></p>
+        <header class="story__head">
+          <p class="story__product" id="pd-product"></p>
+          <h1 class="project-detail__title story__title" id="pd-title">Project</h1>
+        </header>
+        <div class="project-detail__grid">
+          <figure class="project-detail__media">
+            <div id="pd-media"></div>
+          </figure>
+          <div class="story">
+            <div class="story__body" id="pd-story"></div>
+            <aside class="story__credits">
+              <h2>Bronnen &amp; credits</h2>
+              <ul id="pd-credits"></ul>
+            </aside>
+          </div>
+        </div>
+
+        <nav class="project-nav" aria-label="Andere projecten">
+          <a class="project-nav__link project-nav__link--prev" id="pd-prev" href="projecten.html"></a>
+          <a class="project-nav__link project-nav__link--next" id="pd-next" href="projecten.html"></a>
+        </nav>
+      </div>
+
+      <div class="project-missing" id="project-missing" hidden>
+        <h1 class="project-detail__title">Project niet gevonden</h1>
+        <p>Dit project bestaat niet (meer). <a href="projecten.html">Bekijk alle projecten</a>.</p>
+      </div>
+    </article>
+    <!-- ===== Call to action ===== -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="cta__shapes" aria-hidden="true">
+        <span class="cta__circle"></span>
+        <span class="cta__square"></span>
+      </div>
+      <div class="cta__inner reveal">
+        <p class="eyebrow">Samenwerken?</p>
+        <h2 class="cta__title" id="cta-title">Heb je een idee? <span>Laten we iets maken.</span></h2>
+        <a href="contact.html" class="btn cta__btn">Neem contact op <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="site-footer__stripe" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <div class="site-footer__shapes" aria-hidden="true">
+          <span class="shape-circle"></span><span class="shape-square"></span><span class="shape-triangle"></span>
+        </div>
+        <p>Vorm volgt functie.<br>Klank volgt gevoel.</p>
+      </div>
+
+      <nav class="site-footer__col" aria-label="Footer navigatie">
+        <h2>Menu</h2>
+        <a href="index.html">Home</a>
+        <a href="over-mij.html">Over mij</a>
+        <a href="skills.html">Skills</a>
+        <a href="projecten.html">Projecten</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="site-footer__col">
+        <h2>Contact</h2>
+        <a href="mailto:brandonwijngaarde9@gmail.com">brandonwijngaarde9@gmail.com</a>
+        <span>Nederland</span>
+      </div>
+
+      <div class="site-footer__col">
+        <h2>Volg</h2>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Instagram</a>
+        <a href="#">SoundCloud</a>
+      </div>
+
+      <a href="#top" class="to-top" aria-label="Terug naar boven">
+        <span aria-hidden="true">↑</span>
+      </a>
+    </div>
+
+    <div class="site-footer__big" aria-hidden="true">Wijngaarde</div>
+
+    <dl class="site-footer__facts" aria-label="Studentgegevens">
+      <div><dt>Naam</dt><dd>Brandon Wijngaarde</dd></div>
+      <div><dt>Opleiding</dt><dd>Creative Business</dd></div>
+      <div><dt>School</dt><dd>Hogeschool Inholland</dd></div>
+      <div><dt>Studentnummer</dt><dd>762963</dd></div>
+      <div><dt>Klas</dt><dd>ROCB26VT1C</dd></div>
+      <div><dt>Locatie</dt><dd>Rotterdam</dd></div>
+      <div><dt>Datum</dt><dd>2-11-2026</dd></div>
+      <div><dt>Module</dt><dd>NL Media Maker P1 2026-2027</dd></div>
+    </dl>
+
+    <div class="site-footer__meta">
+      <span>© <span id="year">2026</span> Brandon Wijngaarde</span>
+      <span>Graphic · Web · Code · Muziek</span>
+      <span>Gebouwd met HTML, CSS &amp; JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="projects.js"></script>
+  <script src="player.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
