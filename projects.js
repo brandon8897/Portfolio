@@ -78,6 +78,32 @@ const PROJECTS = {
     ],
   },
 
+  "mm-teaser": {
+    kop: "Het beste interview ooit?",
+    title: "Teaser: het Bjorn Lagendijk Interview",
+    module: "Media Maker",
+    year: "2026",
+    verhaal: [
+      "Een interview moet je eerst nog laten zien aan mensen. Daarom maakte ik een teaser van 36 seconden die nieuwsgierig maakt naar het gesprek met Bjorn Lagendijk, zonder al te verklappen wat hij vertelt.",
+      "De teaser wisselt korte shots van Bjorn af met titelkaarten: \"Ben je klaar?\", \"Voor het beste interview ooit?\" en \"Nog nooit eerder gezien\". Pas aan het eind valt de titel: Het Bjorn Lagendijk Interview.",
+      // Invullen: hoe je de teaser hebt gemaakt (keuze van shots, muziek, de titelkaarten, en dat je een versie A en B hebt gemaakt)
+      "TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // Invullen: waar je de teaser zou publiceren en waarom (bijv. Instagram Reels, LinkedIn, YouTube Shorts)
+      "TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+    ],
+    media: {
+      kind: "video",
+      src: "assets/projecten_stuff/bjorn_teaser_web.mp4",
+      poster: "assets/projecten_stuff/bjorn_teaser_poster.jpg",
+      caption: "Teaser, 36 s.",
+    },
+    bronnen: [
+      "Geïnterviewde: Bjorn Lagendijk, oud-student Inholland (met toestemming)",
+      "Alle beelden zijn zelf gefilmd",
+      "Gemonteerd in Adobe Premiere Pro",
+    ],
+  },
+
   "mm-podcast": {
     kop: "Wie ben ik als je me alleen kunt horen?",
     title: "Audio-zelfportret",
