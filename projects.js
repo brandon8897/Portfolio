@@ -86,10 +86,8 @@ const PROJECTS = {
     verhaal: [
       "Een interview moet je eerst nog laten zien aan mensen. Daarom maakte ik een teaser van 36 seconden die nieuwsgierig maakt naar het gesprek met Bjorn Lagendijk, zonder al te verklappen wat hij vertelt.",
       "De teaser wisselt korte shots van Bjorn af met titelkaarten: \"Ben je klaar?\", \"Voor het beste interview ooit?\" en \"Nog nooit eerder gezien\". Pas aan het eind valt de titel: Het Bjorn Lagendijk Interview.",
-      // Invullen: hoe je de teaser hebt gemaakt (keuze van shots, muziek, de titelkaarten, en dat je een versie A en B hebt gemaakt)
-      "TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      // Invullen: waar je de teaser zou publiceren en waarom (bijv. Instagram Reels, LinkedIn, YouTube Shorts)
-      "TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "Ik maakte twee versies van de teaser: een serieuze en een wat leukere. De serieuze versie kondigt het interview netjes aan, de leukere speelt met overdreven titelkaarten en laat Bjorn van een lossere kant zien. Uiteindelijk koos ik voor de leukere versie. Een teaser moet opvallen tussen alles waar mensen langs scrollen, en met een knipoog blijf je eerder hangen dan met een strakke aankondiging.",
+      "De teaser zou ik een paar dagen voor het interview posten op LinkedIn en Instagram, als aankondiging. Een korte video van 36 seconden past bij hoe mensen daar scrollen. Wie nieuwsgierig is geworden, vindt daarna het volledige interview op LinkedIn en YouTube.",
     ],
     media: {
       kind: "video",
